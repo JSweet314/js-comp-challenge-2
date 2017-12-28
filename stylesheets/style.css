@@ -7,37 +7,112 @@ header {
   background-color: #2B2B2B;
   color: #ffffff;
   font-size: 4rem;
-  height: 30rem;
+  height: 15rem;
+}
+
+a img {
+  width: 1.5rem;
+/*   vertical-align: middle; */
 }
 
 ul {
   margin:0;
+  display: inline-block;
+  padding:  0;
+  width: 50%;
 }
 
 li {
   display: inline;
 }
 
+li a {
+  font-size: 1.7rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  vertical-align: middle;
+}
+
 .main-logo {
   width: 8rem;
-  float: right;
+  display: inline-block;
   margin: 0 1rem 0 0;
+  float: right;
+  position:  relative;
+  top: 5.2rem;
+  right: 1rem;
 }
 
 main {
-  margin: 3rem;
+  margin: 2rem;
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 2.5rem;
 }
 
 article {
-  background-color: #ffffff;
-  height: 69vh;
-  margin: 5rem auto;
+  background-color: #fff;
+  height: 40rem;
+  width: 28rem;
+  margin: 1.5rem auto;
+  box-shadow: 10px 5px 5px #8A8A8A;
 }
 
 p {
-  font-size: 4rem;
+  font-size: 3rem;
+  padding-left: 0.5rem;
+}
+
+div {
+  height: 18rem;
+}
+
+.euler {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/euler.jpg) top center no-repeat;
+  background-size: 100%;
+}
+
+.gauss {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/gauss.jpeg) top center no-repeat;
+  background-size: 100%;
+}
+
+.leibniz {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/leibniz.jpeg) top center no-repeat;
+  background-size: 100%;
+}
+
+.descartes {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/descartes.jpeg) top center no-repeat;
+  background-size: 100%;
+}
+
+.riemann {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/riemann.jpg) top center no-repeat;
+  background-size: 100%;
+}
+
+.turing {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/turing.jpg) top center no-repeat;
+  background-size: 100%;
+}
+
+.fermat {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fermat.jpg) top center no-repeat;
+  background-size: 100%;
+}
+
+.fibonacci {
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fibonacci.jpeg) top center no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 500px){
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
