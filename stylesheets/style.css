@@ -111,48 +111,48 @@ p span {
 }
 
 .euler {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/euler.jpg);
+  background: url("/images/euler.jpg");
   background-size: 100%;
 }
 
 .gauss {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/gauss.jpeg) no-repeat;
+  background: url("/images/gauss.jpeg");
   background-size: 100%;
   background-position: 0 28%;
 }
 
 .leibniz {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/leibniz.jpeg);
+  background: url("/images/leibniz.jpeg");
   background-size: 100%;
   background-position: 0 22%;
 }
 
 .descartes {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/descartes.jpeg);
+  background: url("/images/descartes.jpeg");
   background-size: 100%;
   background-position: 0 10%;
 }
 
 .riemann {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/riemann.jpg);
+  background: url("/images/riemann.jpg");
   background-size: 100%;
   background-position: 0 10%;
 }
 
 .turing {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/turing.jpg);
+  background: url("/images/turing.jpg");
   background-size: 100%;
   background-position: 0 18%;
 }
 
 .fermat {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fermat.jpg);
+  background: url("/images/fermat.jpg");
   background-size: 100%;
   background-position: 0 30%;
 }
 
 .fibonacci {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fibonacci.jpeg);
+  background: url("/images/fibonacci.jpeg");
   background-size: 100%;
   background-position: 0 25.2%;
 }
