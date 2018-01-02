@@ -1,118 +1,202 @@
 html {
-  font-size: 10px;
+  font-size: 62.5%;
   background-color: #EFEFEF;
+  min-width: 320px;
 }
 
 header {
   background-color: #2B2B2B;
   color: #ffffff;
-  font-size: 4rem;
-  height: 15rem;
+  padding: 1rem;
+}
+
+header a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 a img {
-  width: 1.5rem;
-/*   vertical-align: middle; */
+  width: 3rem;
+  vertical-align: middle;
+  margin: 0 0.5rem 0 1.5rem;
 }
 
 ul {
-  margin:0;
-  display: inline-block;
-  padding:  0;
-  width: 50%;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-  display: inline;
-}
-
-li a {
-  font-size: 1.7rem;
-  padding-left: 0.5rem;
-  text-decoration: none;
-  color: #fff;
-  vertical-align: middle;
+  padding: 1.5rem 0;
 }
 
 .main-logo {
-  width: 8rem;
-  display: inline-block;
-  margin: 0 1rem 0 0;
-  float: right;
-  position:  relative;
-  top: 5.2rem;
-  right: 1rem;
-}
-
-main {
-  margin: 2rem;
+  height: 10rem;
+  margin: 2rem auto;
+  display: block;
 }
 
 h1 {
-  font-size: 2.5rem;
+  margin: 2rem 0 2rem 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 article {
   background-color: #fff;
+  width: 32rem;
   height: 40rem;
-  width: 28rem;
-  margin: 1.5rem auto;
-  box-shadow: 10px 5px 5px #8A8A8A;
+  margin: 2rem auto;
+  box-shadow: 5px 5px 5px grey;
 }
+
+h2,
+h3,
+p {
+  padding: 0 0 0 1rem;
+}
+
 
 p {
   font-size: 3rem;
-  padding-left: 0.5rem;
+}
+
+.contributions span {
+  text-align: left;
+  color: orange;
 }
 
 div {
-  height: 18rem;
+  height: 15rem;
+}
+
+input[type=image] {
+  padding: 1rem;
+}
+
+div p {
+  display: inline-block;
+  float: right;
+  margin: 0.5rem 1rem;
+  color: orange;
+  font-weight: 800;
+  text-shadow: 1px 1px black;
+}
+
+p span {
+  display: block;
+  text-align: center;
+}
+
+.portfolio {
+  font-size: 1.6rem;
+  overflow-wrap: break-word;
+  color: blue;
+  background-color: #FF9F4A;
+  margin: 1rem;
+  padding:  1rem;
+}
+
+.portfolio a {
+  text-decoration: none;
 }
 
 .euler {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/euler.jpg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/euler.jpg);
   background-size: 100%;
 }
 
 .gauss {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/gauss.jpeg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/gauss.jpeg) no-repeat;
   background-size: 100%;
+  background-position: 0 28%;
 }
 
 .leibniz {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/leibniz.jpeg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/leibniz.jpeg);
   background-size: 100%;
+  background-position: 0 22%;
 }
 
 .descartes {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/descartes.jpeg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/descartes.jpeg);
   background-size: 100%;
+  background-position: 0 10%;
 }
 
 .riemann {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/riemann.jpg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/riemann.jpg);
   background-size: 100%;
+  background-position: 0 10%;
 }
 
 .turing {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/turing.jpg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/turing.jpg);
   background-size: 100%;
+  background-position: 0 18%;
 }
 
 .fermat {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fermat.jpg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fermat.jpg);
   background-size: 100%;
+  background-position: 0 30%;
 }
 
 .fibonacci {
-  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fibonacci.jpeg) top center no-repeat;
+  background: url(/Users/jonathansweet/turing/mod1/comp-challenge-2/images/fibonacci.jpeg);
   background-size: 100%;
+  background-position: 0 25.2%;
 }
 
-@media screen and (min-width: 500px){
-  section {
+@media screen and (min-width: 665px){
+  main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+  }
+
+  article {
+    margin: 1rem;
+  }
+
+  header {
+    height: 13rem
+  }
+
+  ul {
+    position: relative;
+    top: 10rem;
+  }
+  a img {
+    height: 2rem
+  }
+  
+  header a {
+    font-size: 1.5rem;
+    display: inline;
+  }
+
+  .login-link {
+    float: right;
+  }
+
+  li {
+    display: inline;
+  }
+
+  .main-logo {
+    float: right;
+    clear: right;
+    margin: 1rem 3rem 0 0;
+    width: 14.5rem;
   }
 }
