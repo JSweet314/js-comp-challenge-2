@@ -9,7 +9,9 @@ Original Comp:
 ## Result 
 
 Mobile:
+
 ![mobile styling](images/js-comp2-mobile.png)
 
 Full-Screen:
+
 ![full screen styling](images/js-comp2-fullscreen.png)
