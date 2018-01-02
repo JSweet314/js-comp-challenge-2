@@ -111,48 +111,48 @@ p span {
 }
 
 .euler {
-  background: url("/images/euler.jpg");
+  background: url("../images/euler.jpg");
   background-size: 100%;
 }
 
 .gauss {
-  background: url("/images/gauss.jpeg");
+  background: url("../images/gauss.jpeg");
   background-size: 100%;
   background-position: 0 28%;
 }
 
 .leibniz {
-  background: url("/images/leibniz.jpeg");
+  background: url("../images/leibniz.jpeg");
   background-size: 100%;
   background-position: 0 22%;
 }
 
 .descartes {
-  background: url("/images/descartes.jpeg");
+  background: url("../images/descartes.jpeg");
   background-size: 100%;
   background-position: 0 10%;
 }
 
 .riemann {
-  background: url("/images/riemann.jpg");
+  background: url("../images/riemann.jpg");
   background-size: 100%;
   background-position: 0 10%;
 }
 
 .turing {
-  background: url("/images/turing.jpg");
+  background: url("../images/turing.jpg");
   background-size: 100%;
   background-position: 0 18%;
 }
 
 .fermat {
-  background: url("/images/fermat.jpg");
+  background: url("../images/fermat.jpg");
   background-size: 100%;
   background-position: 0 30%;
 }
 
 .fibonacci {
-  background: url("/images/fibonacci.jpeg");
+  background: url("../images/fibonacci.jpeg");
   background-size: 100%;
   background-position: 0 25.2%;
 }
